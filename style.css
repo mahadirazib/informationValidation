@@ -1,0 +1,55 @@
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+}
+
+label, legend{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+label:first-child{
+    font-weight: 300;
+}
+
+button:hover{
+    border-color: #33c3f0;
+    background-color: #eaf5f8;
+}
+
+button:active{
+    background-color: #33c3f0;
+}
+
+input[type=text] {
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+
+.takingInput{
+    width: 80%;
+    margin: 100px auto 20px;
+    text-align: center;
+}
+
+.resultContainer{
+    width: 80%;
+    margin: 20px auto ;
+    text-align: center;
+    font-weight: 900;
+}
+
+.selectType{
+    display: inline-block;
+    margin: 0 20px;
+}
